@@ -5,20 +5,19 @@ This is a simple example of mutual certificates authentication using golang and 
 ## How to run
 
 - [ ] Generate the certificates using the `Makefile`: It will generate the certificates for the server and the client in the `certs` directory.
-
-```bash
-make all
-```
+   ```bash
+   make all
+   ```
 
 - [ ] Run the server:
+   ```bash
+   go run server.go
+   ```
 
-```bash
-go run server.go
-```
 - [ ] Run the client:
-```bash
-go run client.go
-```
+   ```bash
+   go run client.go
+   ```
 
 ## How it works
 
